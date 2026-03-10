@@ -46,7 +46,7 @@ The script supports two modes.
 ## cover (default)
 
 ```bash
-./generator.sh -m cover animation.gif
+./plymouth-theme-generator -m cover animation.gif
 ```
 
 Frames are resized and cropped to match the detected screen resolution.
@@ -58,7 +58,7 @@ This ensures the animation fills the screen.
 ## centre
 
 ```bash
-./generator.sh -m centre animation.gif
+./plymouth-theme-generator -m centre animation.gif
 ```
 
 Frames are extracted without scaling.
